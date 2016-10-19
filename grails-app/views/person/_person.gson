@@ -1,7 +1,0 @@
-import grails.rest.api.Person
-
-model {
-	Person person
-}
-
-json g.render(person)

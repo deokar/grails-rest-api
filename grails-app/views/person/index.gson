@@ -1,8 +1,0 @@
-import grails.rest.api.Person
-
-model {
-	Iterable<Person> personList
-}
-
-json tmpl.person(personList ?: [])
-
